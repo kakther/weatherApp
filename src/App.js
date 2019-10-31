@@ -54,6 +54,7 @@ render() {
               <div className="row">
                 <div className="col-xs-5 title-container">
                   <Titles />
+                <h1>Hello</h1>
                 </div>
                 <div className="col-xs-7 form-container">
                 <Form getWeather={this.getWeather}/>
