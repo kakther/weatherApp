@@ -8,7 +8,7 @@ const API_KEY = "d7b07564ca758ef86032a078a2c967ae"
 class App extends React.Component{
   state = {
     temperature: undefined,
-    ciry: undefined,
+    city: undefined,
     country: undefined,
     humidity: undefined,
     description: undefined,
@@ -54,7 +54,6 @@ render() {
               <div className="row">
                 <div className="col-xs-5 title-container">
                   <Titles />
-                <h1>Hello</h1>
                 </div>
                 <div className="col-xs-7 form-container">
                 <Form getWeather={this.getWeather}/>
